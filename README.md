@@ -13,6 +13,7 @@ in 2018 however, the stock market took a turn for the worst. Most of the stocks 
 ![2018 Stock Rate of Return](https://user-images.githubusercontent.com/111706055/189501807-7ef8db99-ab3b-4d13-bdfe-0337ca29bde9.png)
 
 The analysis can be found in the following link https://github.com/kiwidata/Stock-Analysis/blob/main/VBA_Challenge.xlsm.xlsm
+
 Furthermore please find enclosed the code used for the rate of return of the stocks steve chose for his parents
 
 Sub AllStocksAnalysisRefactored()
@@ -145,3 +146,8 @@ Sub AllStocksAnalysisRefactored()
     Next i
  
     endTime = Timer
+    
+        MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
+
+End Sub
+
