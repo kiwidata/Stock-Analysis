@@ -151,3 +151,15 @@ Sub AllStocksAnalysisRefactored()
 
 End Sub
 
+## Summary
+In general refactoring makes the code more efficient, and allow a better understanding for future reader to read since its usually a polish of the original code. It also usually allow the computer to use less memory and shows faster results. A disavantage is that by restructuring the code we might create some new error that we did not have before.
+
+For this VBA script the biggest advantage of this restructing was at which speed the result was given. Please find below the comparison between the original and the refactor code.
+
+![original code speed of result](https://user-images.githubusercontent.com/111706055/189502732-94dfc373-c504-4c77-b9e5-3b3d7c1753b3.png)
+
+![refactoring code speed of result](https://user-images.githubusercontent.com/111706055/189502738-5ef04dd8-22fa-41ce-a8e3-fd043457df9d.png)
+
+We can clearly see that the refactor code gave a much quicker result.
+
+One disavantage of the refactor code was that it did create multiple bugs that had to be address while creating the code.
